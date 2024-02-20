@@ -1,4 +1,4 @@
-# Stereo_fusion
+# C++ classical Stereo_reconstruction
 An implementation of a stereo-pipeline based on block-matching.
 Multiview-pointcloud registration uses Open3D implementations for ICP and coarse alignment.
 
@@ -47,6 +47,11 @@ The resulting depth image always corresponds to the <u>LEFT</u> stereo image.
 
 * cd build <br>
 * ./stereo_fusion --path=../config.yaml
+
+## reconstruction results
+![Alt Text](https://github.com/fatma18F/stereo_reconstruction/blob/master/images/flower.png)
+
+
 
 ## References
 ### Rectification follows:
